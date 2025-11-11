@@ -1,0 +1,838 @@
+/* body{
+    margin: 0px;
+}
+.h-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: beige;
+    
+}
+.h-box h1{
+    margin-left: 20px;
+    font-size: 40px;
+    padding-right: 30px;
+}
+.h-box a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.h-box a:hover{
+    color: blue;
+}
+.h-box img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+.login-b{
+   position: relative;
+} */
+  body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.olx-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top:0;
+}
+
+.left .logo a {
+  font-weight: bold;
+  font-size: 40px;
+  color: blue;
+  margin-right: 15px;
+}
+
+.left .header-icon {
+  margin-right: 15px;
+ 
+}
+.left img{
+    height: 30px;
+    padding-right: 10px;
+}
+.left a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.left a:hover{
+    color: blue;
+}
+.container{
+    position: sticky;
+    top: 0;
+
+}
+ .center{
+display: flex;
+} 
+
+.center select,
+.center input {
+    width: 600px;
+  padding: 10px;
+  margin-right: 0px;
+ border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.center button{
+    padding: 8px 12px;
+    color: white;
+    background: #002f34;
+    border: 1px solid #002f34;
+    border-radius: 5px;
+    float: right;
+}
+.b-svg{
+    width: 20px;
+    height: 15px;
+    color: white;
+        -webkit-font-smoothing: antialiased;
+    --vw: 8.16px;
+    -webkit-text-size-adjust: 100%;
+    --container-width: 1024px;
+    --container-margin: 2 * 1.6rem;
+    --template: 36.2rem 1fr;
+    --gap: 1.6rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    box-sizing: inherit;
+    fill: currentColor;
+    /* height: 1.4em;
+    width: 1.4em; */
+}
+.right {
+color: black;
+text-decoration: none;
+font-size: large;
+align-items: center;
+text-align: center;
+float: right;
+}
+.right a:hover {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 500;
+}
+.olx-link{
+    margin-top: 5px;
+}
+.olx-link a{
+    color: black;
+    padding: 15px;  
+
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: medium;
+}
+.olx-link a:hover{
+    color: blue;
+}
+.png-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.mobile{
+    width: 150px;
+    text-align: center;
+}
+.mobile h5{
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+.title{
+font-size: 40px;
+text-transform: capitalize;
+}
+.card{
+    width: 250px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+}
+.one-plus h3{
+    margin: 0px;
+     display: inline;
+}
+.one-plus p{
+    margin: 0px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-1{
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+
+}
+.card-1 img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.pro h3{
+    margin: 0px;
+     display: inline;
+}
+.pro p{
+    margin: 0px;
+     font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-2{
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+     border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+}
+.oppo h3{
+    margin: 0px;
+     display: inline;
+}
+.oppo p{
+    margin: 0px;
+}
+.card-3{
+    width: 250px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+}
+.vivo h3{
+    margin: 0px;
+    display: inline;
+}
+.vivo p{
+    margin: 0px;
+}
+.car-container{
+    display: flex;
+
+
+}
+
+.car{
+    width: 300px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 1); */
+}
+.car img{
+      width: 100%;
+      height: 220px;
+    object-fit: cover;
+}
+.car h3{
+    margin: 0px;
+     display: inline;
+}
+.car p{
+    margin: 0px;
+}
+.car-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.car-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.car-1 p{
+    margin: 0px;
+}
+.car-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.car-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.car-2 p{
+    margin: 0px;
+}
+.car-3{
+    width: 300px;
+    float: right;
+     margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.car-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.car-3 p{
+    margin: 0px;
+}
+.bike-container{
+    display: flex;
+}
+
+.bike{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+.bike h3{
+    margin: 0px;
+     display: inline;
+}
+.bike p{
+    margin: 0px;
+}
+.bike-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.bike-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.bike-1 p{
+    margin: 0px;
+}
+.bike-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+ border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.bike-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.bike-2 p{
+    margin: 0px;
+}
+
+.bike-3{
+    width: 300px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.bike-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.bike-3 p{
+    margin: 0px;
+}
+.house-container{
+    display: flex;
+}
+
+.house{
+    width: 300px;
+    /* height: 300px; */
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    /* overflow: hidden; */
+   
+}
+.house img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.house h3{
+    margin: 0px;
+     display: inline;
+}
+.house p{
+    margin: 0px;
+}
+.house-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.house-1 img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.house-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.house-1 p{
+    margin: 0px;
+}
+.house-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+ border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.house-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.house-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.house-2 p{
+    margin: 0px;
+}
+
+.house-3{
+    width: 300px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.house-3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.house-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.house-3 p{
+    margin: 0px;
+}
+.video-container{
+    display: flex;
+}
+
+.Video{
+    width: 300px;
+    /* height: 300px; */
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    /* overflow: hidden; */
+   
+}
+.Video img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.Video h3{
+    margin: 0px;
+     display: inline;
+}
+.Video p{
+    margin: 0px;
+}
+.video-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.video-1 img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.video-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.video-1 p{
+    margin: 0px;
+}
+.video-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+ border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.video-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.video-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.video-2 p{
+    margin: 0px;
+}
+
+.video-3{
+    width: 300px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.video-3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.video-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.video-3 p{
+    margin: 0px;
+}
+.tablets-container{
+    display: flex;
+}
+
+.tablet{
+    width: 300px;
+    /* height: 300px; */
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    /* overflow: hidden; */
+   
+}
+.tablet img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.tablet h3{
+    margin: 0px;
+     display: inline;
+}
+.tablet p{
+    margin: 0px;
+}
+.tablet-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.tablet-1 img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.tablet-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.tablet-1 p{
+    margin: 0px;
+}
+.tablet-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+ border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.tablet-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.tablet-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.tablet-2 p{
+    margin: 0px;
+}
+
+.tablet-3{
+    width: 300px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.tablet-3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.tablet-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.tablet-3 p{
+    margin: 0px;
+}
+.plots-container{
+    display: flex;
+}
+
+.plots{
+    width: 300px;
+    /* height: 300px; */
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    /* overflow: hidden; */
+   
+}
+.plots img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.plots h3{
+    margin: 0px;
+     display: inline;
+}
+.plots p{
+    margin: 0px;
+}
+.plots-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.plots-1 img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.plots-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.plots-1 p{
+    margin: 0px;
+}
+.plots-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+ border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.plots-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.plots-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.plots-2 p{
+    margin: 0px;
+}
+
+.plots-3{
+    width: 300px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.plots-3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.plots-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.plots-3 p{
+    margin: 0px;
+}
+.jobs-container{
+    display: flex;
+}
+
+.jobs{
+    width: 300px;
+    /* height: 300px; */
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    /* overflow: hidden; */
+   
+}
+.jobs img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.jobs h3{
+    margin: 0px;
+     display: inline;
+}
+.jobs p{
+    margin: 0px;
+}
+.jobs-1{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.jobs-1 img{
+      width: 100%;
+      height: 300px;
+    object-fit: cover;
+}
+.jobs-1 h3{
+    margin: 0px;
+     display: inline;
+}
+.tajobsblet-1 p{
+    margin: 0px;
+}
+.jobs-2{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+ border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.jobs-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.jobs-2 h3{
+    margin: 0px;
+     display: inline;
+}
+.jobs-2 p{
+    margin: 0px;
+}
+
+.jobs-3{
+    width: 300px;
+    float: right;
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.jobs-3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.plojobsts-3 h3{
+    margin: 0px;
+    display: inline;
+    
+}
+.jobs-3 p{
+    margin: 0px;
+}
